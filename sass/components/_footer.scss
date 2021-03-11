@@ -160,12 +160,13 @@
 
 .basement__container {
   display: flex;
+  justify-content: space-between;
 }
 
 .bassement--icons__icon {
   background-color: var(--bcg-icon-footer);
 }
 
-.bassement--icons {
-  margin-left: 93px;
-}
+// .bassement--icons {
+//   margin-left: 93px;
+// }

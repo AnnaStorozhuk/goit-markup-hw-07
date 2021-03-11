@@ -807,14 +807,13 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .bassement--icons__icon {
   background-color: var(--bcg-icon-footer);
-}
-
-.bassement--icons {
-  margin-left: 93px;
 }
 
 .works {
