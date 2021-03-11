@@ -1,0 +1,57 @@
+.tasks {
+  padding-top: 94px;
+
+  &__display {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    letter-spacing: 0.03em;
+  }
+
+  &__text {
+    color: var(--main-color-text);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    margin: 0;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  &__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: var(--team-bcg);
+  }
+  &__svg {
+    width: 70px;
+    height: 70px;
+  }
+
+  &__display {
+    padding: 0;
+
+    margin: 0;
+  }
+}
+
+.tasks__priority {
+  margin-left: 30px;
+  width: 270px;
+  flex-direction: row;
+  letter-spacing: 0.03em;
+
+  &:nth-child(1) {
+    margin: 0;
+  }
+}
