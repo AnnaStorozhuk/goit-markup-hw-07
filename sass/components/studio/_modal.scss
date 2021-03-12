@@ -122,6 +122,7 @@
   outline: var(--outline-modal);
   transition: fill var(--time) var(--cubic);
   font-family: inherit;
+  height: 120px;
 
   &::placeholder {
     color: var(--main-color-text);

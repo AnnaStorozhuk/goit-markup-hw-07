@@ -1213,6 +1213,7 @@ img {
   -webkit-transition: fill var(--time) var(--cubic);
   transition: fill var(--time) var(--cubic);
   font-family: inherit;
+  height: 120px;
 }
 
 .backdrop--modal__textarea::-webkit-input-placeholder {
